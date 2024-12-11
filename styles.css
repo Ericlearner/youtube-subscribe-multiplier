@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Images/pexels-moose-photos-170195-1037992.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo {
+    width: 140px;
+    height: 100px;
+
+}
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #760476;
+    font-weight: 400;
+}
+.login-btn {
+    text-decoration: none;
+    text: #333;
+    margin-right: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+
+}
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+    margin-left: 80px;
+}
+.content h1 {
+    font-size: 55px;
+    color: #283335;
+}
+.content p {
+    margin: 10px 0 30px;
+    color: #f0d4f0;
+}
+.content .login-btn {
+    padding: 15px 80px;
+    font-size: 16px;
+}
+.login-btn:hover {
+    border-top-right-radius: 30px;
+
+}
+ol li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: blue;
+}
